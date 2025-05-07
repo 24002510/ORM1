@@ -20,6 +20,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+```
 Models.py:
 
 from django.db import models
@@ -40,7 +41,7 @@ class MovieAdmin(admin.ModelAdmin):
 from django.contrib import admin
 from.models import Movie,MovieAdmin
 admin.site.register(Movie,MovieAdmin)
-
+```
 ## OUTPUT
 include your output image
 
